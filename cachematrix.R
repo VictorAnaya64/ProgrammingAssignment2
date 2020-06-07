@@ -2,7 +2,7 @@
 ## functions do
 
 ## The function makeCacheMatrix creates a list of functions, so an object 
-## defined 
+## defined this way, keeps the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## the following function solves the matrix and keeps it in cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
